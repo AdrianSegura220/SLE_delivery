@@ -1,0 +1,40 @@
+<head>
+
+<title>Page Title</title>
+</head><div id="hasBoughtHouseDiv" style="display: block;">
+ <label for="hasBoughtHouse">Did you buy a house in 2010?</label>
+ <input id="hasBoughtHouse" type="checkbox" name="hasBoughtHouse" onchange="updateQuestionaire('hasBoughtHouse')">
+</div>
+ 
+ 
+			   <div id="hasMaintLoanDiv" style="display: block;">
+ <label for="hasMaintLoan">Did you enter a loan?</label>
+ <input id="hasMaintLoan" type="checkbox" name="hasMaintLoan" onchange="updateQuestionaire('hasMaintLoan')">
+</div>
+ 
+ 
+			   <div id="hasSoldHouseDiv" style="display: block;">
+ <label for="hasSoldHouse">Did you sell a house in 2010?</label>
+ <input id="hasSoldHouse" type="checkbox" name="hasSoldHouse" onchange="updateQuestionaire('hasSoldHouse')">
+</div>
+ 
+ 
+			   <div id="sellingPriceDiv" style="display: none;">
+ <label for="sellingPrice">What was the selling price?</label>
+ <input id="sellingPrice" type="number" name="sellingPrice" onchange="updateQuestionaire('sellingPrice')">
+</div>
+ 
+ 
+			   <div id="privateDebtDiv" style="display: none;">
+ <label for="privateDebt">Private debts for the sold house:</label>
+ <input id="privateDebt" type="number" name="privateDebt" onchange="updateQuestionaire('privateDebt')">
+</div>
+ 
+ 
+			   <div id="valueResidueDiv" style="display: none;">
+ <label for="valueResidue">Value residue:</label>
+ <input id="valueResidue" type="number" name="valueResidue" disabled >
+</div>
+ 
+ 
+			   <script src="tax.js"></script>
